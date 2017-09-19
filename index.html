@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>OMG How stressed are you?!!</h1>
+      <p class="lead"> Take this dumb test to find out!</p>
+      <form id="formOne">
+        <!-- Warning Signs -->
+        <div class="form-group">
+          <h4>Warning Signs</h4>
+          <p>Check all that apply:</p>
+          <input type="checkbox" name="warning-signs" value="sleep" class="big-checkbox"> Loss of sleep<br>
+          <input type="checkbox" name="warning-signs" value="overwhelmed" class="big-checkbox"> Feeling overwhelmed<br>
+          <input type="checkbox" name="warning-signs" value="pressure" class="big-checkbox"> Feeling pressure like the world is falling apart<br>
+          <input type="checkbox" name="warning-signs" value="depressed" class="big-checkbox"> Depressed<br>
+          <input type="checkbox" name="warning-signs" value="unmotivated" class="big-checkbox"> Unmotivated<br>
+        </div>
+        <!-- Health Symptoms -->
+        <div class="form-group">
+          <h4>Health Symptoms</h4>
+          <p>Check all that apply:</p>
+          <input type="checkbox" name="health-symptoms" value="blood" class="big-checkbox"> High blood pressure<br>
+          <input type="checkbox" name="health-symptoms" value="anxiety" class="big-checkbox"> Anxiety<br>
+          <input type="checkbox" name="health-symptoms" value="ocd" class="big-checkbox"> OCD behavior<br>
+          <input type="checkbox" name="health-symptoms" value="lowt" class="big-checkbox"> Low testosterone<br>
+          <input type="checkbox" name="health-symptoms" value="insomnia" class="big-checkbox"> Insomnia<br>
+        </div>
+        <!-- Coping Methods -->
+        <div class="form-group">
+          <h4>Coping Methods</h4>
+          <p>Check all that apply:</p>
+          <input type="checkbox" name="coping-methods" value="meditation" class="big-checkbox"> Meditation<br>
+          <input type="checkbox" name="coping-methods" value="managetime" class="big-checkbox"> Manage your time<br>
+          <input type="checkbox" name="coping-methods" value="cat" class="big-checkbox"> Pet a cat<br>
+          <input type="checkbox" name="coping-methods" value="videogames" class="big-checkbox"> Play video games<br>
+          <input type="checkbox" name="coping-methods" value="drink" class="big-checkbox"> Drink excessively<br>
+        </div>
+        <button type="submit" class="btn btn-warning"> Generate Results!</button>
+      </form>
+      <span id="results1" class="hide">
+        <h5>You selected the folowing warning signs:</h5>
+      </span>
+      <span id="results2" class="hide">
+        <h5>You selected the folowing health symptoms:</h5>
+      </span>
+      <span id="results3" class="hide">
+        <h5>You selected the folowing coping methods:</h5>
+      </span>
+
+      <span id="outcome" class="hide">
+        <h5>Here's your outlook:</h5>
+      </span>
+
+    </div>
+  </body>
+</html>
